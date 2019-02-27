@@ -8,7 +8,7 @@ pipeline {
     }
     stage ('move'){
       steps {
-        sh 'mv /home/zippyops/jenkins/workspace/laravel5-example/* /etc/puppetlabs/code/environments/production/modules/php/files'
+        sh 'mv /home/zippyops/jenkins/workspace/laravel5-example /etc/puppetlabs/code/environments/production/modules/php/files'
       }
   }
  }
